@@ -15,6 +15,7 @@
 		2A3442C22354CADC00627E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3442C02354CADC00627E18 /* LaunchScreen.storyboard */; };
 		2A3442CD2354CADC00627E18 /* SwiftUINavigationLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442CC2354CADC00627E18 /* SwiftUINavigationLinkTests.swift */; };
 		2A3442D82354CADC00627E18 /* SwiftUINavigationLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442D72354CADC00627E18 /* SwiftUINavigationLinkUITests.swift */; };
+		2A3442E62354CE3200627E18 /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442E52354CE3200627E18 /* ContentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2A3442D32354CADC00627E18 /* SwiftUINavigationLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUINavigationLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3442D72354CADC00627E18 /* SwiftUINavigationLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUINavigationLinkUITests.swift; sourceTree = "<group>"; };
 		2A3442D92354CADC00627E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3442E52354CE3200627E18 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2A3442B52354CAD700627E18 /* AppDelegate.swift */,
 				2A3442B72354CAD700627E18 /* SceneDelegate.swift */,
 				2A3442B92354CAD700627E18 /* ContentView.swift */,
+				2A3442E52354CE3200627E18 /* ContentRow.swift */,
 				2A3442BB2354CADC00627E18 /* Assets.xcassets */,
 				2A3442C02354CADC00627E18 /* LaunchScreen.storyboard */,
 				2A3442C32354CADC00627E18 /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				2A3442B62354CAD700627E18 /* AppDelegate.swift in Sources */,
 				2A3442B82354CAD700627E18 /* SceneDelegate.swift in Sources */,
+				2A3442E62354CE3200627E18 /* ContentRow.swift in Sources */,
 				2A3442BA2354CAD700627E18 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
