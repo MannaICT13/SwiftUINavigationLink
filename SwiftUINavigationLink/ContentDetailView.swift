@@ -14,10 +14,15 @@ struct ContentDetailView: View {
     
     var body: some View {
         
-        HStack(alignment:.center){
-            ContentRow(img: img, name: name)
-                       .navigationBarTitle("DetailView", displayMode: .inline)
-            Spacer()
+        VStack(alignment:.center){
+           
+            Image(img)
+                .resizable()
+                .frame(width: 250, height: 250)
+            Text(name).font(.system(size: 35))
+                .foregroundColor(Color.red)
+            
+            
         }
        
         
