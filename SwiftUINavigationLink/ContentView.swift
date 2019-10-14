@@ -11,11 +11,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
    
-        Text("Hello World")
+        
+        
+        NavigationView{
+            
+            
+            
+            List(data){ datas in
+                
+                NavigationLink(destination: Text("Hello World!")) {
+                    ContentRow(img: datas.img, name: datas.name)
+                }
+                
+                
+            }
+          
+            .navigationBarTitle("Person", displayMode: .large)
+            
+            }
+          
+        }
     
         
     
-    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
