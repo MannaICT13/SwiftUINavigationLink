@@ -17,6 +17,7 @@
 		2A3442D82354CADC00627E18 /* SwiftUINavigationLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442D72354CADC00627E18 /* SwiftUINavigationLinkUITests.swift */; };
 		2A3442E62354CE3200627E18 /* ContentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442E52354CE3200627E18 /* ContentRow.swift */; };
 		2A3442E82354CF5F00627E18 /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442E72354CF5F00627E18 /* DataStruct.swift */; };
+		2A3442EA2354D32D00627E18 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3442E92354D32D00627E18 /* ContentDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2A3442D92354CADC00627E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A3442E52354CE3200627E18 /* ContentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRow.swift; sourceTree = "<group>"; };
 		2A3442E72354CF5F00627E18 /* DataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
+		2A3442E92354D32D00627E18 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2A3442B92354CAD700627E18 /* ContentView.swift */,
 				2A3442E52354CE3200627E18 /* ContentRow.swift */,
 				2A3442E72354CF5F00627E18 /* DataStruct.swift */,
+				2A3442E92354D32D00627E18 /* ContentDetailView.swift */,
 				2A3442BB2354CADC00627E18 /* Assets.xcassets */,
 				2A3442C02354CADC00627E18 /* LaunchScreen.storyboard */,
 				2A3442C32354CADC00627E18 /* Info.plist */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3442E82354CF5F00627E18 /* DataStruct.swift in Sources */,
+				2A3442EA2354D32D00627E18 /* ContentDetailView.swift in Sources */,
 				2A3442B62354CAD700627E18 /* AppDelegate.swift in Sources */,
 				2A3442B82354CAD700627E18 /* SceneDelegate.swift in Sources */,
 				2A3442E62354CE3200627E18 /* ContentRow.swift in Sources */,

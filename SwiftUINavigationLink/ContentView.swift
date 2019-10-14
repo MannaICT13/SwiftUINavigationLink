@@ -19,7 +19,7 @@ struct ContentView: View {
             
             List(data){ datas in
                 
-                NavigationLink(destination: Text("Hello World!")) {
+                NavigationLink(destination:ContentDetailView(img: datas.img, name: datas.name) ) {
                     ContentRow(img: datas.img, name: datas.name)
                 }
                 
